@@ -3,11 +3,6 @@
 </p>
 
 <p align="center">
-  <strong>The most comprehensive open-source AI engineering course ever created.</strong><br>
-  From linear algebra to autonomous agent swarms — 200+ hands-on lessons, in the language that fits best.
-</p>
-
-<p align="center">
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT"></a>
   <a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome"></a>
   <img src="https://img.shields.io/badge/Lessons-200+-purple" alt="200+ Lessons">
@@ -16,9 +11,9 @@
 </p>
 
 <p align="center">
-  <a href="#-the-journey">Journey</a> &bull;
-  <a href="#-getting-started">Get Started</a> &bull;
-  <a href="#-course-output-the-toolkit">Toolkit</a> &bull;
+  <a href="#the-journey">Journey</a> &bull;
+  <a href="#getting-started">Get Started</a> &bull;
+  <a href="#course-output-the-toolkit">Toolkit</a> &bull;
   <a href="ROADMAP.md">Roadmap</a> &bull;
   <a href="CONTRIBUTING.md">Contribute</a> &bull;
   <a href="glossary/terms.md">Glossary</a>
@@ -26,36 +21,17 @@
 
 ---
 
-## Why This Exists
+200+ hands-on lessons across 20 phases. From linear algebra to autonomous agent swarms. Python, TypeScript, Rust, Julia. Every lesson produces something reusable: prompts, skills, agents, MCP servers.
 
-Every other course teaches you one slice of AI and sends you home. This course teaches you **everything** — and by the time you're done, you've built a library of battle-tested prompts, skills, agents, and MCP servers that the world can actually use.
+You learn AI. You build real things. You ship tools others can use.
 
-> **This isn't a tutorial. This isn't a bootcamp. This is the curriculum universities wish they had — built by practitioners, free forever.**
-
-<table>
-<tr>
-<td width="50%">
-
-### Other Courses
-- One slice (NLP *or* Vision *or* Agents)
-- Python only
-- Output: "I learned something"
-- Surface-level or theory-heavy
-- Videos or docs
-
-</td>
-<td width="50%">
-
-### This Course
-- **Everything:** math → ML → DL → NLP → vision → speech → transformers → LLMs → agents → swarms
-- **Polyglot:** Python, TypeScript, Rust, Julia
-- **Output:** A portfolio of real tools, prompts, skills, and agents
-- **Depth:** Build from scratch first, then use frameworks
-- **Format:** Runnable code + notebooks + docs + web app
-
-</td>
-</tr>
-</table>
+| | Other Courses | This Course |
+|---|---|---|
+| **Scope** | One slice (NLP or Vision or Agents) | Everything: math, ML, DL, NLP, vision, speech, transformers, LLMs, agents, swarms |
+| **Languages** | Python only | Python, TypeScript, Rust, Julia |
+| **Output** | "I learned something" | A portfolio of tools, prompts, skills, and agents |
+| **Depth** | Surface-level or theory-heavy | Build from scratch first, then use frameworks |
+| **Format** | Videos or docs | Runnable code + notebooks + docs + web app |
 
 ---
 
@@ -64,13 +40,13 @@ Every other course teaches you one slice of AI and sends you home. This course t
 <table>
 <tr><td>
 
-### Phase 0 — Setup & Tooling `4 lessons`
+### Phase 0: Setup & Tooling `4 lessons`
 > Get your environment ready for everything that follows.
 
 | # | Lesson | Type | Lang |
 |:---:|--------|:----:|------|
 | 01 | [Dev Environment](phases/00-setup-and-tooling/01-dev-environment/) | Build | Python, Node, Rust |
-| 02 | Git & Collaboration | Learn | — |
+| 02 | Git & Collaboration | Learn | -- |
 | 03 | GPU Setup & Cloud | Build | Python |
 | 04 | APIs & Keys | Build | Python, TS |
 
@@ -78,56 +54,56 @@ Every other course teaches you one slice of AI and sends you home. This course t
 </table>
 
 <details>
-<summary><strong>Phase 1 — Math Foundations</strong> <code>10 lessons</code> &nbsp; <em>The intuition behind every AI algorithm, through code.</em></summary>
+<summary><strong>Phase 1: Math Foundations</strong> <code>10 lessons</code> &nbsp; <em>The intuition behind every AI algorithm, through code.</em></summary>
 
 | # | Lesson | Type | Lang |
 |:---:|--------|:----:|------|
 | 01 | [Linear Algebra Intuition](phases/01-math-foundations/01-linear-algebra-intuition/) | Learn | Python, Julia |
 | 02 | Vectors, Matrices & Operations | Build | Python, Julia |
 | 03 | Matrix Transformations & Eigenvalues | Build | Python, Julia |
-| 04 | Calculus for ML — Derivatives & Gradients | Learn | Python |
+| 04 | Calculus for ML -Derivatives & Gradients | Learn | Python |
 | 05 | Chain Rule & Automatic Differentiation | Build | Python |
 | 06 | Probability & Distributions | Learn | Python |
 | 07 | Bayes' Theorem & Statistical Thinking | Build | Python |
-| 08 | Optimization — Gradient Descent Family | Build | Python |
-| 09 | Information Theory — Entropy, KL Divergence | Learn | Python |
-| 10 | Dimensionality Reduction — PCA, t-SNE, UMAP | Build | Python |
+| 08 | Optimization: Gradient Descent Family | Build | Python |
+| 09 | Information Theory: Entropy, KL Divergence | Learn | Python |
+| 10 | Dimensionality Reduction: PCA, t-SNE, UMAP | Build | Python |
 
 </details>
 
 <details>
-<summary><strong>Phase 2 — ML Fundamentals</strong> <code>13 lessons</code> &nbsp; <em>Classical ML — still the backbone of most production AI.</em></summary>
+<summary><strong>Phase 2: ML Fundamentals</strong> <code>13 lessons</code> &nbsp; <em>Classical ML - still the backbone of most production AI.</em></summary>
 
 | # | Lesson | Type | Lang |
 |:---:|--------|:----:|------|
-| 01 | What Is Machine Learning — Types & Taxonomy | Learn | — |
+| 01 | What Is Machine Learning: Types & Taxonomy | Learn | -- |
 | 02 | Linear Regression from Scratch | Build | Python |
 | 03 | Logistic Regression & Classification | Build | Python |
 | 04 | Decision Trees & Random Forests | Build | Python |
 | 05 | Support Vector Machines | Build | Python |
 | 06 | K-Nearest Neighbors & Distance Metrics | Build | Python |
-| 07 | Unsupervised Learning — K-Means, DBSCAN | Build | Python |
+| 07 | Unsupervised Learning -K-Means, DBSCAN | Build | Python |
 | 08 | Feature Engineering & Selection | Build | Python |
-| 09 | Model Evaluation — Metrics, Cross-Validation | Build | Python |
+| 09 | Model Evaluation -Metrics, Cross-Validation | Build | Python |
 | 10 | Bias, Variance & the Learning Curve | Learn | Python |
-| 11 | Ensemble Methods — Boosting, Bagging, Stacking | Build | Python |
+| 11 | Ensemble Methods: Boosting, Bagging, Stacking | Build | Python |
 | 12 | Hyperparameter Tuning & AutoML | Build | Python |
 | 13 | ML Pipelines & Experiment Tracking | Build | Python |
 
 </details>
 
 <details>
-<summary><strong>Phase 3 — Deep Learning Core</strong> <code>13 lessons</code> &nbsp; <em>Neural networks from first principles. No frameworks until you build one.</em></summary>
+<summary><strong>Phase 3: Deep Learning Core</strong> <code>13 lessons</code> &nbsp; <em>Neural networks from first principles. No frameworks until you build one.</em></summary>
 
 | # | Lesson | Type | Lang |
 |:---:|--------|:----:|------|
-| 01 | The Perceptron — Where It All Started | Build | Python |
+| 01 | The Perceptron: Where It All Started | Build | Python |
 | 02 | Multi-Layer Networks & Forward Pass | Build | Python |
 | 03 | Backpropagation from Scratch | Build | Python |
-| 04 | Activation Functions — ReLU, Sigmoid, GELU & Why | Learn | Python |
-| 05 | Loss Functions — MSE, Cross-Entropy, Contrastive | Build | Python |
-| 06 | Optimizers — SGD, Momentum, Adam, AdamW | Build | Python |
-| 07 | Regularization — Dropout, Weight Decay, BatchNorm | Build | Python |
+| 04 | Activation Functions: ReLU, Sigmoid, GELU & Why | Learn | Python |
+| 05 | Loss Functions: MSE, Cross-Entropy, Contrastive | Build | Python |
+| 06 | Optimizers -SGD, Momentum, Adam, AdamW | Build | Python |
+| 07 | Regularization -Dropout, Weight Decay, BatchNorm | Build | Python |
 | 08 | Weight Initialization & Training Stability | Build | Python |
 | 09 | Learning Rate Schedules & Warmup | Build | Python |
 | 10 | Build Your Own Mini Framework | Build | Python |
@@ -138,65 +114,65 @@ Every other course teaches you one slice of AI and sends you home. This course t
 </details>
 
 <details>
-<summary><strong>Phase 4 — Computer Vision</strong> <code>16 lessons</code> &nbsp; <em>From pixels to understanding — image, video, and 3D.</em></summary>
+<summary><strong>Phase 4: Computer Vision</strong> <code>16 lessons</code> &nbsp; <em>From pixels to understanding - image, video, and 3D.</em></summary>
 
 | # | Lesson | Type | Lang |
 |:---:|--------|:----:|------|
-| 01 | Image Fundamentals — Pixels, Channels, Color Spaces | Learn | Python |
+| 01 | Image Fundamentals: Pixels, Channels, Color Spaces | Learn | Python |
 | 02 | Convolutions from Scratch | Build | Python |
-| 03 | CNNs — LeNet to ResNet | Build | Python |
+| 03 | CNNs: LeNet to ResNet | Build | Python |
 | 04 | Image Classification | Build | Python |
 | 05 | Transfer Learning & Fine-Tuning | Build | Python |
-| 06 | Object Detection — YOLO from Scratch | Build | Python |
-| 07 | Semantic Segmentation — U-Net | Build | Python |
-| 08 | Instance Segmentation — Mask R-CNN | Build | Python |
-| 09 | Image Generation — GANs | Build | Python |
-| 10 | Image Generation — Diffusion Models | Build | Python |
-| 11 | Stable Diffusion — Architecture & Fine-Tuning | Build | Python |
-| 12 | Video Understanding — Temporal Modeling | Build | Python |
-| 13 | 3D Vision — Point Clouds, NeRFs | Build | Python |
+| 06 | Object Detection -YOLO from Scratch | Build | Python |
+| 07 | Semantic Segmentation -U-Net | Build | Python |
+| 08 | Instance Segmentation -Mask R-CNN | Build | Python |
+| 09 | Image Generation -GANs | Build | Python |
+| 10 | Image Generation -Diffusion Models | Build | Python |
+| 11 | Stable Diffusion -Architecture & Fine-Tuning | Build | Python |
+| 12 | Video Understanding -Temporal Modeling | Build | Python |
+| 13 | 3D Vision: Point Clouds, NeRFs | Build | Python |
 | 14 | Vision Transformers (ViT) | Build | Python |
-| 15 | Real-Time Vision — Edge Deployment | Build | Python, Rust |
+| 15 | Real-Time Vision: Edge Deployment | Build | Python, Rust |
 | 16 | Build a Complete Vision Pipeline | Build | Python |
 
 </details>
 
 <details>
-<summary><strong>Phase 5 — NLP: Foundations to Advanced</strong> <code>18 lessons</code> &nbsp; <em>Language is the interface to intelligence.</em></summary>
+<summary><strong>Phase 5: NLP: Foundations to Advanced</strong> <code>18 lessons</code> &nbsp; <em>Language is the interface to intelligence.</em></summary>
 
 | # | Lesson | Type | Lang |
 |:---:|--------|:----:|------|
-| 01 | Text Processing — Tokenization, Stemming, Lemmatization | Build | Python |
+| 01 | Text Processing: Tokenization, Stemming, Lemmatization | Build | Python |
 | 02 | Bag of Words, TF-IDF & Text Representation | Build | Python |
-| 03 | Word Embeddings — Word2Vec from Scratch | Build | Python |
+| 03 | Word Embeddings: Word2Vec from Scratch | Build | Python |
 | 04 | GloVe, FastText & Subword Embeddings | Build | Python |
 | 05 | Sentiment Analysis | Build | Python |
 | 06 | Named Entity Recognition (NER) | Build | Python |
 | 07 | POS Tagging & Syntactic Parsing | Build | Python |
-| 08 | Text Classification — CNNs & RNNs for Text | Build | Python |
+| 08 | Text Classification -CNNs & RNNs for Text | Build | Python |
 | 09 | Sequence-to-Sequence Models | Build | Python |
-| 10 | Attention Mechanism — The Breakthrough | Build | Python |
+| 10 | Attention Mechanism -The Breakthrough | Build | Python |
 | 11 | Machine Translation | Build | Python |
 | 12 | Text Summarization | Build | Python |
 | 13 | Question Answering Systems | Build | Python |
 | 14 | Information Retrieval & Search | Build | Python |
-| 15 | Topic Modeling — LDA, BERTopic | Build | Python |
+| 15 | Topic Modeling: LDA, BERTopic | Build | Python |
 | 16 | Text Generation | Build | Python |
-| 17 | Chatbots — Rule-Based to Neural | Build | Python |
+| 17 | Chatbots: Rule-Based to Neural | Build | Python |
 | 18 | Multilingual NLP | Build | Python |
 
 </details>
 
 <details>
-<summary><strong>Phase 6 — Speech & Audio</strong> <code>12 lessons</code> &nbsp; <em>Hear, understand, speak.</em></summary>
+<summary><strong>Phase 6: Speech & Audio</strong> <code>12 lessons</code> &nbsp; <em>Hear, understand, speak.</em></summary>
 
 | # | Lesson | Type | Lang |
 |:---:|--------|:----:|------|
-| 01 | Audio Fundamentals — Waveforms, Sampling, FFT | Learn | Python |
+| 01 | Audio Fundamentals: Waveforms, Sampling, FFT | Learn | Python |
 | 02 | Spectrograms, Mel Scale & Audio Features | Build | Python |
 | 03 | Audio Classification | Build | Python |
 | 04 | Speech Recognition (ASR) | Build | Python |
-| 05 | Whisper — Architecture & Fine-Tuning | Build | Python |
+| 05 | Whisper: Architecture & Fine-Tuning | Build | Python |
 | 06 | Speaker Recognition & Verification | Build | Python |
 | 07 | Text-to-Speech (TTS) | Build | Python |
 | 08 | Voice Cloning & Voice Conversion | Build | Python |
@@ -208,20 +184,20 @@ Every other course teaches you one slice of AI and sends you home. This course t
 </details>
 
 <details>
-<summary><strong>Phase 7 — Transformers Deep Dive</strong> <code>14 lessons</code> &nbsp; <em>The architecture that changed everything.</em></summary>
+<summary><strong>Phase 7: Transformers Deep Dive</strong> <code>14 lessons</code> &nbsp; <em>The architecture that changed everything.</em></summary>
 
 | # | Lesson | Type | Lang |
 |:---:|--------|:----:|------|
-| 01 | Why Transformers — The Problems with RNNs | Learn | — |
+| 01 | Why Transformers: The Problems with RNNs | Learn | -- |
 | 02 | Self-Attention from Scratch | Build | Python |
 | 03 | Multi-Head Attention | Build | Python |
-| 04 | Positional Encoding — Sinusoidal, RoPE, ALiBi | Build | Python |
-| 05 | The Full Transformer — Encoder + Decoder | Build | Python |
-| 06 | BERT — Masked Language Modeling | Build | Python |
-| 07 | GPT — Causal Language Modeling | Build | Python |
-| 08 | T5, BART — Encoder-Decoder Models | Build | Python |
+| 04 | Positional Encoding: Sinusoidal, RoPE, ALiBi | Build | Python |
+| 05 | The Full Transformer: Encoder + Decoder | Build | Python |
+| 06 | BERT -Masked Language Modeling | Build | Python |
+| 07 | GPT -Causal Language Modeling | Build | Python |
+| 08 | T5, BART -Encoder-Decoder Models | Build | Python |
 | 09 | Vision Transformers (ViT) | Build | Python |
-| 10 | Audio Transformers — Whisper Architecture | Build | Python |
+| 10 | Audio Transformers -Whisper Architecture | Build | Python |
 | 11 | Mixture of Experts (MoE) | Build | Python |
 | 12 | KV Cache, Flash Attention & Inference Optimization | Build | Python, Rust |
 | 13 | Scaling Laws | Learn | Python |
@@ -230,16 +206,16 @@ Every other course teaches you one slice of AI and sends you home. This course t
 </details>
 
 <details>
-<summary><strong>Phase 8 — Generative AI</strong> <code>14 lessons</code> &nbsp; <em>Create images, video, audio, 3D, and more.</em></summary>
+<summary><strong>Phase 8: Generative AI</strong> <code>14 lessons</code> &nbsp; <em>Create images, video, audio, 3D, and more.</em></summary>
 
 | # | Lesson | Type | Lang |
 |:---:|--------|:----:|------|
-| 01 | Generative Models — Taxonomy & History | Learn | — |
+| 01 | Generative Models: Taxonomy & History | Learn | -- |
 | 02 | Autoencoders & VAE | Build | Python |
-| 03 | GANs — Generator vs Discriminator | Build | Python |
+| 03 | GANs: Generator vs Discriminator | Build | Python |
 | 04 | Conditional GANs & Pix2Pix | Build | Python |
 | 05 | StyleGAN | Build | Python |
-| 06 | Diffusion Models — DDPM from Scratch | Build | Python |
+| 06 | Diffusion Models -DDPM from Scratch | Build | Python |
 | 07 | Latent Diffusion & Stable Diffusion | Build | Python |
 | 08 | ControlNet, LoRA & Conditioning | Build | Python |
 | 09 | Inpainting, Outpainting & Editing | Build | Python |
@@ -247,12 +223,12 @@ Every other course teaches you one slice of AI and sends you home. This course t
 | 11 | Audio Generation | Build | Python |
 | 12 | 3D Generation | Build | Python |
 | 13 | Flow Matching & Rectified Flows | Build | Python |
-| 14 | Evaluation — FID, CLIP Score | Build | Python |
+| 14 | Evaluation: FID, CLIP Score | Build | Python |
 
 </details>
 
 <details>
-<summary><strong>Phase 9 — Reinforcement Learning</strong> <code>12 lessons</code> &nbsp; <em>The foundation of RLHF and game-playing AI.</em></summary>
+<summary><strong>Phase 9: Reinforcement Learning</strong> <code>12 lessons</code> &nbsp; <em>The foundation of RLHF and game-playing AI.</em></summary>
 
 | # | Lesson | Type | Lang |
 |:---:|--------|:----:|------|
@@ -261,8 +237,8 @@ Every other course teaches you one slice of AI and sends you home. This course t
 | 03 | Monte Carlo Methods | Build | Python |
 | 04 | Q-Learning, SARSA | Build | Python |
 | 05 | Deep Q-Networks (DQN) | Build | Python |
-| 06 | Policy Gradients — REINFORCE | Build | Python |
-| 07 | Actor-Critic — A2C, A3C | Build | Python |
+| 06 | Policy Gradients -REINFORCE | Build | Python |
+| 07 | Actor-Critic -A2C, A3C | Build | Python |
 | 08 | PPO | Build | Python |
 | 09 | Reward Modeling & RLHF | Build | Python |
 | 10 | Multi-Agent RL | Build | Python |
@@ -272,39 +248,39 @@ Every other course teaches you one slice of AI and sends you home. This course t
 </details>
 
 <details>
-<summary><strong>Phase 10 — LLMs from Scratch</strong> <code>14 lessons</code> &nbsp; <em>Build, train, and understand large language models.</em></summary>
+<summary><strong>Phase 10: LLMs from Scratch</strong> <code>14 lessons</code> &nbsp; <em>Build, train, and understand large language models.</em></summary>
 
 | # | Lesson | Type | Lang |
 |:---:|--------|:----:|------|
-| 01 | Tokenizers — BPE, WordPiece, SentencePiece | Build | Python |
+| 01 | Tokenizers: BPE, WordPiece, SentencePiece | Build | Python |
 | 02 | Building a Tokenizer from Scratch | Build | Python, Rust |
 | 03 | Data Pipelines for Pre-Training | Build | Python |
 | 04 | Pre-Training a Mini GPT (124M) | Build | Python |
 | 05 | Distributed Training, FSDP, DeepSpeed | Build | Python |
-| 06 | Instruction Tuning — SFT | Build | Python |
-| 07 | RLHF — Reward Model + PPO | Build | Python |
-| 08 | DPO — Direct Preference Optimization | Build | Python |
+| 06 | Instruction Tuning -SFT | Build | Python |
+| 07 | RLHF -Reward Model + PPO | Build | Python |
+| 08 | DPO -Direct Preference Optimization | Build | Python |
 | 09 | Constitutional AI | Build | Python |
-| 10 | Evaluation — Benchmarks, Evals | Build | Python |
-| 11 | Quantization — INT8, GPTQ, AWQ, GGUF | Build | Python, Rust |
+| 10 | Evaluation -Benchmarks, Evals | Build | Python |
+| 11 | Quantization: INT8, GPTQ, AWQ, GGUF | Build | Python, Rust |
 | 12 | Inference Optimization | Build | Python |
 | 13 | Building a Complete LLM Pipeline | Build | Python |
-| 14 | Open Models — Architecture Walkthroughs | Learn | Python |
+| 14 | Open Models: Architecture Walkthroughs | Learn | Python |
 
 </details>
 
 <details>
-<summary><strong>Phase 11 — LLM Engineering</strong> <code>13 lessons</code> &nbsp; <em>Put LLMs to work in production.</em></summary>
+<summary><strong>Phase 11: LLM Engineering</strong> <code>13 lessons</code> &nbsp; <em>Put LLMs to work in production.</em></summary>
 
 | # | Lesson | Type | Lang |
 |:---:|--------|:----:|------|
-| 01 | Prompt Engineering — Techniques & Patterns | Build | Python |
+| 01 | Prompt Engineering: Techniques & Patterns | Build | Python |
 | 02 | Few-Shot, CoT, Tree-of-Thought | Build | Python |
 | 03 | Structured Outputs | Build | Python, TS |
 | 04 | Embeddings & Vector Representations | Build | Python |
 | 05 | Vector Databases | Build | Python, TS |
-| 06 | RAG — Retrieval-Augmented Generation | Build | Python, TS |
-| 07 | Advanced RAG — Chunking, Reranking | Build | Python |
+| 06 | RAG -Retrieval-Augmented Generation | Build | Python, TS |
+| 07 | Advanced RAG -Chunking, Reranking | Build | Python |
 | 08 | Fine-Tuning with LoRA & QLoRA | Build | Python |
 | 09 | Function Calling & Tool Use | Build | Python, TS |
 | 10 | Evaluation & Testing | Build | Python |
@@ -315,12 +291,12 @@ Every other course teaches you one slice of AI and sends you home. This course t
 </details>
 
 <details>
-<summary><strong>Phase 12 — Multimodal AI</strong> <code>11 lessons</code> &nbsp; <em>See, hear, read, and reason across modalities.</em></summary>
+<summary><strong>Phase 12: Multimodal AI</strong> <code>11 lessons</code> &nbsp; <em>See, hear, read, and reason across modalities.</em></summary>
 
 | # | Lesson | Type | Lang |
 |:---:|--------|:----:|------|
-| 01 | Multimodal Representations | Learn | — |
-| 02 | CLIP — Vision + Language | Build | Python |
+| 01 | Multimodal Representations | Learn | -- |
+| 02 | CLIP: Vision + Language | Build | Python |
 | 03 | Vision-Language Models | Build | Python |
 | 04 | Audio-Language Models | Build | Python |
 | 05 | Document Understanding | Build | Python |
@@ -334,13 +310,13 @@ Every other course teaches you one slice of AI and sends you home. This course t
 </details>
 
 <details>
-<summary><strong>Phase 13 — Tools & Protocols</strong> <code>10 lessons</code> &nbsp; <em>The interfaces between AI and the real world.</em></summary>
+<summary><strong>Phase 13: Tools & Protocols</strong> <code>10 lessons</code> &nbsp; <em>The interfaces between AI and the real world.</em></summary>
 
 | # | Lesson | Type | Lang |
 |:---:|--------|:----:|------|
 | 01 | Function Calling Deep Dive | Build | Python, TS |
 | 02 | Tool Use Patterns | Build | TS |
-| 03 | MCP — Model Context Protocol | Learn | — |
+| 03 | MCP: Model Context Protocol | Learn | -- |
 | 04 | Building MCP Servers | Build | TS, Python |
 | 05 | Building MCP Clients | Build | TS, Python |
 | 06 | MCP Resources, Prompts & Sampling | Build | TS |
@@ -352,37 +328,37 @@ Every other course teaches you one slice of AI and sends you home. This course t
 </details>
 
 <details>
-<summary><strong>Phase 14 — Agent Engineering</strong> <code>15 lessons</code> &nbsp; <em>Build agents from first principles.</em></summary>
+<summary><strong>Phase 14: Agent Engineering</strong> <code>15 lessons</code> &nbsp; <em>Build agents from first principles.</em></summary>
 
 | # | Lesson | Type | Lang |
 |:---:|--------|:----:|------|
 | 01 | [The Agent Loop](phases/14-agent-engineering/01-the-agent-loop/) | Build | Python, TS |
 | 02 | Tool Dispatch & Registration | Build | TS |
-| 03 | Planning — TodoWrite, DAGs | Build | TS |
-| 04 | Memory — Short-Term, Long-Term, Episodic | Build | TS, Python |
+| 03 | Planning: TodoWrite, DAGs | Build | TS |
+| 04 | Memory: Short-Term, Long-Term, Episodic | Build | TS, Python |
 | 05 | Context Window Management | Build | TS |
 | 06 | Context Compression & Summarization | Build | TS |
-| 07 | Subagents — Delegation | Build | TS |
+| 07 | Subagents: Delegation | Build | TS |
 | 08 | Skills & Knowledge Loading | Build | TS |
 | 09 | Permissions, Sandboxing & Safety | Build | TS, Rust |
 | 10 | File-Based Task Systems | Build | TS |
 | 11 | Background Task Execution | Build | TS |
 | 12 | Error Recovery & Self-Healing | Build | TS |
-| 13 | Hooks — PreToolUse, PostToolUse | Build | TS |
+| 13 | Hooks: PreToolUse, PostToolUse | Build | TS |
 | 14 | Eval-Driven Agent Development | Build | Python, TS |
 | 15 | Build a Complete AI Agent | Build | TS |
 
 </details>
 
 <details>
-<summary><strong>Phase 15 — Autonomous Systems</strong> <code>11 lessons</code> &nbsp; <em>Agents that run without human intervention — safely.</em></summary>
+<summary><strong>Phase 15: Autonomous Systems</strong> <code>11 lessons</code> &nbsp; <em>Agents that run without human intervention safely.</em></summary>
 
 | # | Lesson | Type | Lang |
 |:---:|--------|:----:|------|
-| 01 | What Makes a System Autonomous | Learn | — |
+| 01 | What Makes a System Autonomous | Learn | -- |
 | 02 | Autonomous Loops | Build | TS, Python |
 | 03 | Self-Healing Agents | Build | TS |
-| 04 | AutoResearch — Autonomous Research | Build | TS, Python |
+| 04 | AutoResearch: Autonomous Research | Build | TS, Python |
 | 05 | Eval-Driven Loops | Build | TS |
 | 06 | Human-in-the-Loop | Build | TS |
 | 07 | Continuous Agents | Build | TS |
@@ -394,12 +370,12 @@ Every other course teaches you one slice of AI and sends you home. This course t
 </details>
 
 <details>
-<summary><strong>Phase 16 — Multi-Agent & Swarms</strong> <code>14 lessons</code> &nbsp; <em>Coordination, emergence, and collective intelligence.</em></summary>
+<summary><strong>Phase 16: Multi-Agent & Swarms</strong> <code>14 lessons</code> &nbsp; <em>Coordination, emergence, and collective intelligence.</em></summary>
 
 | # | Lesson | Type | Lang |
 |:---:|--------|:----:|------|
-| 01 | Why Multi-Agent | Learn | — |
-| 02 | Agent Teams — Roles & Delegation | Build | TS |
+| 01 | Why Multi-Agent | Learn | -- |
+| 02 | Agent Teams: Roles & Delegation | Build | TS |
 | 03 | Communication Protocols | Build | TS, Rust |
 | 04 | Shared State & Coordination | Build | TS, Rust |
 | 05 | Message Passing & Mailboxes | Build | TS |
@@ -416,40 +392,40 @@ Every other course teaches you one slice of AI and sends you home. This course t
 </details>
 
 <details>
-<summary><strong>Phase 17 — Infrastructure & Production</strong> <code>11 lessons</code> &nbsp; <em>Ship AI to the real world.</em></summary>
+<summary><strong>Phase 17: Infrastructure & Production</strong> <code>11 lessons</code> &nbsp; <em>Ship AI to the real world.</em></summary>
 
 | # | Lesson | Type | Lang |
 |:---:|--------|:----:|------|
 | 01 | Model Serving | Build | Python |
 | 02 | Docker for AI Workloads | Build | Python, Rust |
 | 03 | Kubernetes for AI | Build | Python |
-| 04 | Edge Deployment — ONNX, WASM | Build | Python, Rust |
+| 04 | Edge Deployment: ONNX, WASM | Build | Python, Rust |
 | 05 | Observability | Build | TS, Rust |
 | 06 | Cost Optimization | Build | TS |
 | 07 | CI/CD for ML | Build | Python |
 | 08 | A/B Testing & Feature Flags | Build | Python, TS |
 | 09 | Data Pipelines | Build | Python, Rust |
-| 10 | Security — Red Teaming, Defense | Build | Python, TS |
+| 10 | Security: Red Teaming, Defense | Build | Python, TS |
 | 11 | Build a Production AI Platform | Build | Python, TS, Rust |
 
 </details>
 
 <details>
-<summary><strong>Phase 18 — Ethics, Safety & Alignment</strong> <code>6 lessons</code> &nbsp; <em>Build AI that helps humanity. Not optional.</em></summary>
+<summary><strong>Phase 18: Ethics, Safety & Alignment</strong> <code>6 lessons</code> &nbsp; <em>Build AI that helps humanity. Not optional.</em></summary>
 
 | # | Lesson | Type | Lang |
 |:---:|--------|:----:|------|
-| 01 | AI Ethics — Bias, Fairness | Learn | — |
-| 02 | Alignment — What & Why | Learn | — |
+| 01 | AI Ethics: Bias, Fairness | Learn | -- |
+| 02 | Alignment: What & Why | Learn | -- |
 | 03 | Red Teaming & Adversarial Testing | Build | Python |
-| 04 | Responsible AI Frameworks | Learn | — |
-| 05 | Privacy — Differential Privacy, FL | Build | Python |
-| 06 | Interpretability — SHAP, Attention | Build | Python |
+| 04 | Responsible AI Frameworks | Learn | -- |
+| 05 | Privacy: Differential Privacy, FL | Build | Python |
+| 06 | Interpretability: SHAP, Attention | Build | Python |
 
 </details>
 
 <details>
-<summary><strong>Phase 19 — Capstone Projects</strong> <code>5 projects</code> &nbsp; <em>Prove everything you learned.</em></summary>
+<summary><strong>Phase 19: Capstone Projects</strong> <code>5 projects</code> &nbsp; <em>Prove everything you learned.</em></summary>
 
 | # | Project | Combines | Lang |
 |:---:|---------|----------|------|
@@ -465,7 +441,7 @@ Every other course teaches you one slice of AI and sends you home. This course t
 
 ## Course Output: The Toolkit
 
-Every lesson produces something reusable. By the end, you've built:
+Every lesson produces something reusable. By the end you have:
 
 ```
 outputs/
@@ -475,7 +451,7 @@ outputs/
 └── mcp-servers/      MCP servers you built during the course
 ```
 
-These aren't homework — they're tools the world can use. Install them with [SkillKit](https://github.com/rohitg00/skillkit), plug them into Claude Code, Cursor, or any AI agent.
+Real tools. Install them with [SkillKit](https://github.com/rohitg00/skillkit), plug them into Claude Code, Cursor, or any AI agent.
 
 ---
 
@@ -490,16 +466,14 @@ phases/XX-phase-name/NN-lesson-name/
 └── outputs/        Prompts, skills, agents produced by this lesson
 ```
 
-Each lesson follows the pattern:
+Every lesson follows 6 steps:
 
-| Step | What | Why |
-|------|------|-----|
-| **Motto** | One-line core idea | Sticks in your memory |
-| **Problem** | Why this matters | Motivation before mechanics |
-| **Concept** | Visual diagrams & intuition | Build mental models first |
-| **Build It** | Implement from scratch | No black boxes |
-| **Use It** | Same thing with real frameworks | Bridge theory to practice |
-| **Ship It** | The prompt, skill, or agent produced | Your portfolio grows |
+1. **Motto** - one-line core idea
+2. **Problem** - why this matters
+3. **Concept** - visual diagrams and intuition
+4. **Build It** - implement from scratch
+5. **Use It** - same thing with real frameworks
+6. **Ship It** - the prompt, skill, or agent this lesson produces
 
 ---
 
@@ -509,31 +483,28 @@ Each lesson follows the pattern:
 git clone https://github.com/rohitg00/ai-engineering-from-scratch.git
 cd ai-engineering-from-scratch
 
-# Run the environment check
 python phases/00-setup-and-tooling/01-dev-environment/code/verify.py
 
-# Start with Phase 1
 python phases/01-math-foundations/01-linear-algebra-intuition/code/vectors.py
 ```
 
 ### Prerequisites
 
-- You can write code (Python, or any language — we'll teach the rest)
-- You're curious about how AI actually works
-- That's it
+- You can write code (Python or any language)
+- You want to understand how AI actually works
 
 ---
 
 ## Contributing
 
-We welcome contributions. See [CONTRIBUTING.md](CONTRIBUTING.md) for how to add lessons, translations, and outputs.
+See [CONTRIBUTING.md](CONTRIBUTING.md) for how to add lessons, translations, and outputs.
 
 Want to fork this for your team or school? See [FORKING.md](FORKING.md).
 
-See [ROADMAP.md](ROADMAP.md) for progress tracking and what's coming next.
+See [ROADMAP.md](ROADMAP.md) for progress tracking.
 
 ---
 
 <p align="center">
-  <strong>MIT License</strong> — use it however you want. Teach with it. Build on it. Make it yours.
+  MIT License. Use it however you want.
 </p>
